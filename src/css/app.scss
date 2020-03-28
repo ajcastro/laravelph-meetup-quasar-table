@@ -1,0 +1,82 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.font-montserrat, .font-montserrat *:not(.q-icon) {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-semibold, .text-semibold * {
+    font-weight: 600;
+}
+
+.q-item.q-router-link--active {
+    color:#FFBB00;
+    border-left: 2px solid #FFBB00;
+}
+
+#home-link.q-item.q-router-link--active.q-router-link--exact-active {
+    color:#FFBB00;
+    border-left: 2px solid #FFBB00;
+}
+
+#home-link.q-item.q-router-link--active, #home-link.q-item--active {
+    color: #ffffff;
+    border-left: none;
+}
+
+#app-sidebar .q-item__section--side > .q-icon {
+    font-size: 18px;
+}
+
+.fa-20 .q-icon, .fa-20.q-icon{
+  font-size: 20px;
+}
+.fa-18 .q-icon, .fa-18.q-icon{
+  font-size:18px;
+}
+.fa-16 .q-icon, .fa-16.q-icon{
+  font-size: 16px;
+}
+.fa-14 .q-icon, .fa-14.q-icon{
+  font-size: 14px;
+}
+
+.outline-text-black .q-btn__content * {
+  color: #000000;
+}
+
+.outline-text-grey .q-btn__content * {
+  color: grey;
+}
+
+.q-btn--outline .q-btn.q-btn-dropdown__arrow-container,
+.q-btn-group--outline .q-btn.q-btn-dropdown__arrow-container {
+  border-left: 1px solid rgb(189, 189, 189);
+}
+
+.fix-split-padding .q-btn.q-btn-dropdown__arrow-container{
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.fix-split-padding .q-btn:not(.q-btn-dropdown__arrow-container){
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.btn-height {
+  min-height: 32px;
+}
+
+.my-tab .q-tabs__content .q-tab{
+  justify-content: left;
+}
